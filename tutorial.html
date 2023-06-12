@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+        .cont{
+            text-align: center;
+        }
+        i{
+            font-size: 2rem;
+            border: 1px solid green;
+            color: blueviolet;
+            border-radius: 50%;
+            transition: background 0.5s;
+            padding: 10px;
+        }
+        i:hover{
+             background-color: red;
+             cursor: pointer;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="cont">
+        <h1>  Personal ALEXA By Javascript</h1>
+        <i onclick="recognition.start()" class="fa-solid fa-microphone"></i>
+   
+      <h4 id="output"></h4>
+      <h4 id="res"></h4>
+    </div>
+
+    <script src="tutorial.js"></script>
+</body>
+</html>
